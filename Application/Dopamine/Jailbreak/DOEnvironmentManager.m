@@ -249,7 +249,7 @@ extern char **environ;
     
     if ([self isArm64e]) {
         if (cpuFamily == CPUFAMILY_ARM_VORTEX_TEMPEST || cpuFamily == CPUFAMILY_ARM_LIGHTNING_THUNDER) {
-            return @"iOS 15.0 - 18.7.1, 26.0 - 26.0.1 (A12/A13, PPL)";
+            return @"iOS 15.0 - 18.7.1, 26.0 - 26.7.1 (A12/A13/X/Z, PPL)";
         }
         else if (![self isSPTM]) {
             return @"iOS 15.0 - 17.3.1 (PPL)";
